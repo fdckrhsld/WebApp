@@ -1,4 +1,4 @@
 {  
-  "remoteServiceBaseUrl": "https://dev.splus.sakhtemanplus.com",
-  "appBaseUrl": "https://wapp.sakhtemanplus.com"
+    "remoteServiceBaseUrl": "https://dev.splus.sakhtemanplus.com",
+    "appBaseUrl": "https://sakhtemanplus.github.io/WebApp"
 }
