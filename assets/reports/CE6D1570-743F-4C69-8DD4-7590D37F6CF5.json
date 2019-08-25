@@ -1,1 +1,846 @@
-{"ReportVersion":"2018.2.2","ReportGuid":"3c1ea1622153ef50a42b04a284275254","ReportName":"Report","ReportAlias":"Report","ReportFile":"UnitList.mrt","ReportCreated":"/Date(1540474628000+0330)/","ReportChanged":"/Date(1540474628000+0330)/","EngineVersion":"EngineV2","CalculationMode":"Interpretation","ReportUnit":"Centimeters","Styles":{"0":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement, PlacementNestedLevel","Placement":"ReportTitle","ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Report_Title1","Font":";14;Bold;","Border":";65,65,65;;;;;;solid:Black","Brush":"solid:Transparent","TextBrush":"solid:0,0,0"},"1":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement, PlacementNestedLevel","OperationPlacementNestedLevel":"GreaterThanOrEqualTo","Placement":"ReportTitle","PlacementNestedLevel":2,"ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Report_Title2","Font":";10;Bold;","Border":";65,65,65;;;;;;solid:Black","Brush":"solid:Transparent","TextBrush":"solid:0,0,0"},"2":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement, PlacementNestedLevel","Placement":"ReportSummary","ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Report_Summary1","Font":";12;Bold;","Border":";65,65,65;;;;;;solid:Black","Brush":"solid:Transparent","TextBrush":"solid:0,0,0"},"3":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement, PlacementNestedLevel","OperationPlacementNestedLevel":"GreaterThanOrEqualTo","Placement":"ReportSummary","PlacementNestedLevel":2,"ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Report_Summary2","Font":";10;Bold;","Border":";65,65,65;;;;;;solid:Black","Brush":"solid:Transparent","TextBrush":"solid:0,0,0"},"4":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement","Placement":"PageHeader","ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Page_Header","Font":";10;;","Border":";65,65,65;;;;;;solid:Black","Brush":"solid:Transparent","TextBrush":"solid:0,0,0"},"5":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement","Placement":"PageFooter","ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Page_Footer","Font":";10;;","Border":";65,65,65;;;;;;solid:Black","Brush":"solid:Transparent","TextBrush":"solid:0,0,0"},"6":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement, PlacementNestedLevel","Placement":"GroupHeader","ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Group_Header1","Font":";13;Bold;","Border":";65,65,65;;;;;;solid:Black","Brush":"solid:Transparent","TextBrush":"solid:15,15,15","AllowUseBorderSidesFromLocation":true},"7":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement, PlacementNestedLevel","Placement":"GroupHeader","PlacementNestedLevel":2,"ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Group_Header2","Font":";12;Bold;","Border":";65,65,65;;;;;;solid:Black","Brush":"solid:Transparent","TextBrush":"solid:15,15,15","AllowUseBorderSidesFromLocation":true},"8":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement, PlacementNestedLevel","OperationPlacementNestedLevel":"GreaterThanOrEqualTo","Placement":"GroupHeader","PlacementNestedLevel":3,"ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Group_Header3","Font":";11;Bold;","Border":";65,65,65;;;;;;solid:Black","Brush":"solid:Transparent","TextBrush":"solid:15,15,15","AllowUseBorderSidesFromLocation":true},"9":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement, PlacementNestedLevel","Placement":"GroupFooter","ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Group_Footer1","Font":";13;Bold;","Border":";65,65,65;;;;;;solid:Black","Brush":"solid:Transparent","TextBrush":"solid:15,15,15","AllowUseBorderSidesFromLocation":true},"10":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement, PlacementNestedLevel","Placement":"GroupFooter","PlacementNestedLevel":2,"ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Group_Footer2","Font":";12;Bold;","Border":";65,65,65;;;;;;solid:Black","Brush":"solid:Transparent","TextBrush":"solid:15,15,15","AllowUseBorderSidesFromLocation":true},"11":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement, PlacementNestedLevel","Placement":"GroupFooter","PlacementNestedLevel":3,"ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Group_Footer3","Font":";11;Bold;","Border":";65,65,65;;;;;;solid:Black","Brush":"solid:Transparent","TextBrush":"solid:15,15,15","AllowUseBorderSidesFromLocation":true},"12":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement, PlacementNestedLevel","Placement":"Header","ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Header1","Font":";;Bold;","Border":";65,65,65;;;;;true;solid:Black","Brush":"solid:165,165,165","TextBrush":"solid:0,0,0","AllowUseBorderSidesFromLocation":true},"13":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement, PlacementNestedLevel","Placement":"Header","PlacementNestedLevel":2,"ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Header2","Font":";;Bold;","Border":";65,65,65;;;;;true;solid:Black","Brush":"solid:198,198,198","TextBrush":"solid:0,0,0","AllowUseBorderSidesFromLocation":true},"14":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement, PlacementNestedLevel","OperationPlacementNestedLevel":"GreaterThanOrEqualTo","Placement":"Header","PlacementNestedLevel":3,"ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Header3","Font":";;Bold;","Border":";65,65,65;;;;;true;solid:Black","Brush":"solid:231,231,231","TextBrush":"solid:0,0,0","AllowUseBorderSidesFromLocation":true},"15":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement, PlacementNestedLevel","Placement":"Data","ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Data1","Border":";65,65,65;;;;;true;solid:Black","Brush":"solid:Transparent","TextBrush":"solid:0,0,0","AllowUseBorderSidesFromLocation":true},"16":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"Placement, PlacementNestedLevel","Placement":"DataOddStyle"}},"Name":"Gray 50%_Data1_Odd Style","Border":";65,65,65;;;;;true;solid:Black","Brush":"solid:255,255,255","TextBrush":"solid:0,0,0","AllowUseBorderSidesFromLocation":true},"17":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"Placement, PlacementNestedLevel","Placement":"DataEvenStyle"}},"Name":"Gray 50%_Data1_Even Style","Border":";65,65,65;;;;;true;solid:Black","Brush":"solid:240,240,240","TextBrush":"solid:0,0,0","AllowUseBorderSidesFromLocation":true},"18":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement, PlacementNestedLevel","Placement":"Data","PlacementNestedLevel":2,"ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Data2","Border":";65,65,65;;;;;true;solid:Black","Brush":"solid:Transparent","TextBrush":"solid:0,0,0","AllowUseBorderSidesFromLocation":true},"19":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"Placement, PlacementNestedLevel","Placement":"DataOddStyle","PlacementNestedLevel":2}},"Name":"Gray 50%_Data2_Odd Style","Border":";65,65,65;;;;;true;solid:Black","Brush":"solid:255,255,255","TextBrush":"solid:0,0,0","AllowUseBorderSidesFromLocation":true},"20":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"Placement, PlacementNestedLevel","Placement":"DataEvenStyle","PlacementNestedLevel":2}},"Name":"Gray 50%_Data2_Even Style","Border":";65,65,65;;;;;true;solid:Black","Brush":"solid:250,250,250","TextBrush":"solid:0,0,0","AllowUseBorderSidesFromLocation":true},"21":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement, PlacementNestedLevel","OperationPlacementNestedLevel":"GreaterThanOrEqualTo","Placement":"Data","PlacementNestedLevel":3,"ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Data3","Border":";65,65,65;;;;;true;solid:Black","Brush":"solid:Transparent","TextBrush":"solid:0,0,0","AllowUseBorderSidesFromLocation":true},"22":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"Placement, PlacementNestedLevel","OperationPlacementNestedLevel":"GreaterThanOrEqualTo","Placement":"DataOddStyle","PlacementNestedLevel":3}},"Name":"Gray 50%_Data3_Odd Style","Border":";65,65,65;;;;;true;solid:Black","Brush":"solid:255,255,255","TextBrush":"solid:0,0,0","AllowUseBorderSidesFromLocation":true},"23":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"Placement, PlacementNestedLevel","OperationPlacementNestedLevel":"GreaterThanOrEqualTo","Placement":"DataEvenStyle","PlacementNestedLevel":3}},"Name":"Gray 50%_Data3_Even Style","Border":";65,65,65;;;;;true;solid:Black","Brush":"solid:255,255,255","TextBrush":"solid:0,0,0","AllowUseBorderSidesFromLocation":true},"24":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement, PlacementNestedLevel","Placement":"Footer","ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Footer1","Border":";65,65,65;;;;;true;solid:Black","Brush":"solid:185,185,185","TextBrush":"solid:0,0,0","AllowUseBorderSidesFromLocation":true},"25":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement, PlacementNestedLevel","Placement":"Footer","PlacementNestedLevel":2,"ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Footer2","Border":";65,65,65;;;;;true;solid:Black","Brush":"solid:218,218,218","TextBrush":"solid:0,0,0","AllowUseBorderSidesFromLocation":true},"26":{"Ident":"StiStyle","CollectionName":"Gray 50%","Conditions":{"0":{"Ident":"StiStyleCondition","Type":"ComponentType, Placement, PlacementNestedLevel","Placement":"Footer","PlacementNestedLevel":3,"ComponentType":"Text, Primitive, Image, CheckBox"}},"Name":"Gray 50%_Footer3","Border":";65,65,65;;;;;true;solid:Black","Brush":"solid:251,251,251","TextBrush":"solid:0,0,0","AllowUseBorderSidesFromLocation":true}},"Dictionary":{"DataSources":{"0":{"Ident":"StiDataTableSource","Name":"units","Alias":"units","Columns":{"0":{"Name":"Id","Index":-1,"NameInSource":"Id","Alias":"Id","Type":"System.Decimal"},"1":{"Name":"Number","Index":-1,"NameInSource":"Number","Alias":"Number","Type":"System.String"},"2":{"Name":"Description","Index":-1,"NameInSource":"Description","Alias":"Description","Type":"System.String"}},"NameInSource":"Units.units"}}},"Pages":{"0":{"Ident":"StiPage","Name":"Page1","Guid":"cf3c607d1f31c65836c4e74b18463248","Interaction":{"Ident":"StiInteraction"},"Border":";;2;;;;;solid:Black","Brush":"solid:Transparent","Components":{"0":{"Ident":"StiReportTitleBand","Name":"ReportTitle","ClientRectangle":"0,0.4,19.01,1.4","Interaction":{"Ident":"StiInteraction"},"Border":";;;;;;;solid:Black","Brush":"solid:Transparent","Components":{"0":{"Ident":"StiText","Name":"ReportTitleText","ClientRectangle":"0,0,19.01,1.4","ComponentStyle":"Gray 50%_Report_Title1","Interaction":{"Ident":"StiInteraction"},"Text":{"Value":"units"},"HorAlignment":"Center","VertAlignment":"Center","Font":";14;Bold;","Border":";65,65,65;;;;;;solid:Black","Brush":"solid:Transparent","TextBrush":"solid:0,0,0"}}},"1":{"Ident":"StiHeaderBand","Name":"Header","ClientRectangle":"0,2.6,19.01,0.6","Interaction":{"Ident":"StiInteraction"},"Border":";;;;;;;solid:Black","Brush":"solid:Transparent","Components":{"0":{"Ident":"StiText","Name":"HeaderText1","CanGrow":true,"GrowToHeight":true,"ClientRectangle":"0,0,6.2,0.6","ComponentStyle":"Gray 50%_Header1","Interaction":{"Ident":"StiInteraction"},"Text":{"Value":"Description"},"HorAlignment":"Center","VertAlignment":"Center","Font":";;Bold;","Border":"All;65,65,65;;;;;true;solid:Black","Brush":"solid:165,165,165","TextBrush":"solid:0,0,0","TextOptions":{"WordWrap":true}},"1":{"Ident":"StiText","Name":"HeaderText2","CanGrow":true,"GrowToHeight":true,"ClientRectangle":"6.2,0,6.2,0.6","ComponentStyle":"Gray 50%_Header1","Interaction":{"Ident":"StiInteraction"},"Text":{"Value":"Number"},"HorAlignment":"Center","VertAlignment":"Center","Font":";;Bold;","Border":"Top, Right, Bottom;65,65,65;;;;;true;solid:Black","Brush":"solid:165,165,165","TextBrush":"solid:0,0,0","TextOptions":{"WordWrap":true}},"2":{"Ident":"StiText","Name":"HeaderText3","CanGrow":true,"GrowToHeight":true,"ClientRectangle":"12.4,0,6.6,0.6","ComponentStyle":"Gray 50%_Header1","Interaction":{"Ident":"StiInteraction"},"Text":{"Value":"Id"},"HorAlignment":"Center","VertAlignment":"Center","Font":";;Bold;","Border":"Top, Right, Bottom;65,65,65;;;;;true;solid:Black","Brush":"solid:165,165,165","TextBrush":"solid:0,0,0","TextOptions":{"WordWrap":true}}}},"2":{"Ident":"StiDataBand","Name":"Data","ClientRectangle":"0,4,19.01,0.6","Interaction":{"Ident":"StiBandInteraction"},"Border":";;;;;;;solid:Black","Brush":"solid:Transparent","Components":{"0":{"Ident":"StiText","Name":"DataText1","CanGrow":true,"GrowToHeight":true,"ClientRectangle":"0,0,6.2,0.6","ComponentStyle":"Gray 50%_Data1","Interaction":{"Ident":"StiInteraction"},"Text":{"Value":"{units.Description}"},"HorAlignment":"Right","VertAlignment":"Center","Border":"All;65,65,65;;;;;true;solid:Black","Brush":"solid:Transparent","TextBrush":"solid:0,0,0","TextOptions":{"WordWrap":true},"TextQuality":"Wysiwyg"},"1":{"Ident":"StiText","Name":"DataText2","CanGrow":true,"GrowToHeight":true,"ClientRectangle":"6.2,0,6.2,0.6","ComponentStyle":"Gray 50%_Data1","Interaction":{"Ident":"StiInteraction"},"Text":{"Value":"{units.Number}"},"HorAlignment":"Right","VertAlignment":"Center","Border":"Top, Right, Bottom;65,65,65;;;;;true;solid:Black","Brush":"solid:Transparent","TextBrush":"solid:0,0,0","TextOptions":{"WordWrap":true},"TextQuality":"Wysiwyg"},"2":{"Ident":"StiText","Name":"DataText3","CanGrow":true,"GrowToHeight":true,"ClientRectangle":"12.4,0,6.6,0.6","ComponentStyle":"Gray 50%_Data1","Interaction":{"Ident":"StiInteraction"},"Text":{"Value":"{units.Id}"},"HorAlignment":"Right","VertAlignment":"Center","Border":"Top, Right, Bottom;65,65,65;;;;;true;solid:Black","Brush":"solid:Transparent","TextBrush":"solid:0,0,0","TextOptions":{"WordWrap":true},"TextQuality":"Wysiwyg"}},"DataSourceName":"units","EvenStyle":"Gray 50%_Data1_Even Style","OddStyle":"Gray 50%_Data1_Odd Style"},"3":{"Ident":"StiFooterBand","Name":"Footer","ClientRectangle":"0,5.4,19.01,0.6","Interaction":{"Ident":"StiInteraction"},"Border":";;;;;;;solid:Black","Brush":"solid:Transparent","Components":{"0":{"Ident":"StiText","Name":"FooterText1","CanGrow":true,"GrowToHeight":true,"ClientRectangle":"12.4,0,6.6,0.6","ComponentStyle":"Gray 50%_Footer1","Interaction":{"Ident":"StiInteraction"},"Text":{"Value":"{Count()}"},"HorAlignment":"Right","VertAlignment":"Center","Border":"Top, Right, Bottom;65,65,65;;;;;true;solid:Black","Brush":"solid:185,185,185","TextBrush":"solid:0,0,0","TextOptions":{"WordWrap":true}}},"PrintIfEmpty":true}},"PageWidth":21.01,"PageHeight":29.69,"Watermark":{"TextBrush":"solid:50,0,0,0"},"Margins":{"Left":1,"Right":1,"Top":1,"Bottom":1}}}}
+{
+  "ReportVersion": "2019.1.1",
+  "ReportGuid": "fcf1e08d4045ac0c567c1862861330b9",
+  "ReportName": "Report",
+  "ReportAlias": "Report",
+  "ReportFile": "CE6D1570-743F-4C69-8DD4-7590D37F6CF5.json.mrt",
+  "ReportCreated": "/Date(270000000+0330)/",
+  "ReportChanged": "/Date(270000000+0330)/",
+  "EngineVersion": "EngineV2",
+  "CalculationMode": "Interpretation",
+  "ReportUnit": "Centimeters",
+  "Styles": {
+    "0": {
+      "Ident": "StiStyle",
+      "CollectionName": "Gray 25%",
+      "Conditions": {
+        "0": {
+          "Ident": "StiStyleCondition",
+          "Type": "ComponentType, Placement, PlacementNestedLevel",
+          "Placement": "ReportTitle",
+          "ComponentType": "Text, Primitive, Image, CheckBox"
+        }
+      },
+      "Name": "Gray 25%_Report_Title1",
+      "Font": ";14;Bold;",
+      "Border": ";110,110,110;;;;;;solid:Black",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:10,10,10"
+    },
+    "1": {
+      "Ident": "StiStyle",
+      "CollectionName": "Gray 25%",
+      "Conditions": {
+        "0": {
+          "Ident": "StiStyleCondition",
+          "Type": "ComponentType, Placement, PlacementNestedLevel",
+          "OperationPlacementNestedLevel": "GreaterThanOrEqualTo",
+          "Placement": "ReportTitle",
+          "PlacementNestedLevel": 2,
+          "ComponentType": "Text, Primitive, Image, CheckBox"
+        }
+      },
+      "Name": "Gray 25%_Report_Title2",
+      "Font": ";10;Bold;",
+      "Border": ";110,110,110;;;;;;solid:Black",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:10,10,10"
+    },
+    "2": {
+      "Ident": "StiStyle",
+      "CollectionName": "Gray 25%",
+      "Conditions": {
+        "0": {
+          "Ident": "StiStyleCondition",
+          "Type": "ComponentType, Placement, PlacementNestedLevel",
+          "Placement": "ReportSummary",
+          "ComponentType": "Text, Primitive, Image, CheckBox"
+        }
+      },
+      "Name": "Gray 25%_Report_Summary1",
+      "Font": ";12;Bold;",
+      "Border": ";110,110,110;;;;;;solid:Black",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:10,10,10"
+    },
+    "3": {
+      "Ident": "StiStyle",
+      "CollectionName": "Gray 25%",
+      "Conditions": {
+        "0": {
+          "Ident": "StiStyleCondition",
+          "Type": "ComponentType, Placement, PlacementNestedLevel",
+          "OperationPlacementNestedLevel": "GreaterThanOrEqualTo",
+          "Placement": "ReportSummary",
+          "PlacementNestedLevel": 2,
+          "ComponentType": "Text, Primitive, Image, CheckBox"
+        }
+      },
+      "Name": "Gray 25%_Report_Summary2",
+      "Font": ";10;Bold;",
+      "Border": ";110,110,110;;;;;;solid:Black",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:10,10,10"
+    },
+    "4": {
+      "Ident": "StiStyle",
+      "CollectionName": "Gray 25%",
+      "Conditions": {
+        "0": {
+          "Ident": "StiStyleCondition",
+          "Type": "ComponentType, Placement",
+          "Placement": "PageHeader",
+          "ComponentType": "Text, Primitive, Image, CheckBox"
+        }
+      },
+      "Name": "Gray 25%_Page_Header",
+      "Font": ";10;;",
+      "Border": ";110,110,110;;;;;;solid:Black",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:10,10,10"
+    },
+    "5": {
+      "Ident": "StiStyle",
+      "CollectionName": "Gray 25%",
+      "Conditions": {
+        "0": {
+          "Ident": "StiStyleCondition",
+          "Type": "ComponentType, Placement",
+          "Placement": "PageFooter",
+          "ComponentType": "Text, Primitive, Image, CheckBox"
+        }
+      },
+      "Name": "Gray 25%_Page_Footer",
+      "Font": ";10;;",
+      "Border": ";110,110,110;;;;;;solid:Black",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:10,10,10"
+    },
+    "6": {
+      "Ident": "StiStyle",
+      "CollectionName": "Gray 25%",
+      "Conditions": {
+        "0": {
+          "Ident": "StiStyleCondition",
+          "Type": "ComponentType, Placement, PlacementNestedLevel",
+          "OperationPlacementNestedLevel": "GreaterThanOrEqualTo",
+          "Placement": "GroupHeader",
+          "ComponentType": "Text, Primitive, Image, CheckBox"
+        }
+      },
+      "Name": "Gray 25%_Group_Header1",
+      "Font": ";13;Bold;",
+      "Border": ";110,110,110;;;;;;solid:Black",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:60,60,60",
+      "AllowUseBorderSidesFromLocation": true
+    },
+    "7": {
+      "Ident": "StiStyle",
+      "CollectionName": "Gray 25%",
+      "Conditions": {
+        "0": {
+          "Ident": "StiStyleCondition",
+          "Type": "ComponentType, Placement, PlacementNestedLevel",
+          "Placement": "GroupFooter",
+          "ComponentType": "Text, Primitive, Image, CheckBox"
+        }
+      },
+      "Name": "Gray 25%_Group_Footer1",
+      "Font": ";13;Bold;",
+      "Border": ";110,110,110;;;;;;solid:Black",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:60,60,60",
+      "AllowUseBorderSidesFromLocation": true
+    },
+    "8": {
+      "Ident": "StiStyle",
+      "CollectionName": "Gray 25%",
+      "Conditions": {
+        "0": {
+          "Ident": "StiStyleCondition",
+          "Type": "ComponentType, Placement, PlacementNestedLevel",
+          "OperationPlacementNestedLevel": "GreaterThanOrEqualTo",
+          "Placement": "Header",
+          "ComponentType": "Text, Primitive, Image, CheckBox"
+        }
+      },
+      "Name": "Gray 25%_Header1",
+      "Font": ";;Bold;",
+      "Border": ";110,110,110;;;;;true;solid:Black",
+      "Brush": "solid:210,210,210",
+      "TextBrush": "solid:10,10,10",
+      "AllowUseBorderSidesFromLocation": true
+    },
+    "9": {
+      "Ident": "StiStyle",
+      "CollectionName": "Gray 25%",
+      "Conditions": {
+        "0": {
+          "Ident": "StiStyleCondition",
+          "Type": "ComponentType, Placement, PlacementNestedLevel",
+          "OperationPlacementNestedLevel": "GreaterThanOrEqualTo",
+          "Placement": "Data",
+          "ComponentType": "Text, Primitive, Image, CheckBox"
+        }
+      },
+      "Name": "Gray 25%_Data1",
+      "Border": ";110,110,110;;;;;true;solid:Black",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:10,10,10",
+      "AllowUseBorderSidesFromLocation": true
+    },
+    "10": {
+      "Ident": "StiStyle",
+      "CollectionName": "Gray 25%",
+      "Conditions": {
+        "0": {
+          "Ident": "StiStyleCondition",
+          "Type": "Placement, PlacementNestedLevel",
+          "OperationPlacementNestedLevel": "GreaterThanOrEqualTo",
+          "Placement": "DataOddStyle"
+        }
+      },
+      "Name": "Gray 25%_Data1_Odd Style",
+      "Border": ";110,110,110;;;;;true;solid:Black",
+      "Brush": "solid:255,255,255",
+      "TextBrush": "solid:10,10,10",
+      "AllowUseBorderSidesFromLocation": true
+    },
+    "11": {
+      "Ident": "StiStyle",
+      "CollectionName": "Gray 25%",
+      "Conditions": {
+        "0": {
+          "Ident": "StiStyleCondition",
+          "Type": "Placement, PlacementNestedLevel",
+          "OperationPlacementNestedLevel": "GreaterThanOrEqualTo",
+          "Placement": "DataEvenStyle"
+        }
+      },
+      "Name": "Gray 25%_Data1_Even Style",
+      "Border": ";110,110,110;;;;;true;solid:Black",
+      "Brush": "solid:255,255,255",
+      "TextBrush": "solid:10,10,10",
+      "AllowUseBorderSidesFromLocation": true
+    },
+    "12": {
+      "Ident": "StiStyle",
+      "CollectionName": "Gray 25%",
+      "Conditions": {
+        "0": {
+          "Ident": "StiStyleCondition",
+          "Type": "ComponentType, Placement, PlacementNestedLevel",
+          "Placement": "Footer",
+          "ComponentType": "Text, Primitive, Image, CheckBox"
+        }
+      },
+      "Name": "Gray 25%_Footer1",
+      "Border": ";110,110,110;;;;;true;solid:Black",
+      "Brush": "solid:230,230,230",
+      "TextBrush": "solid:10,10,10",
+      "AllowUseBorderSidesFromLocation": true
+    }
+  },
+  "Dictionary": {
+    "Variables": {
+      "0": {
+        "Type": "System.String",
+        "Category": "Local"
+      },
+      "1": {
+        "Name": "DomainsDescription",
+        "Alias": "DomainsDescription",
+        "Type": "System.String",
+        "Category": "report"
+      },
+      "2": {
+        "Value": "1398/06/04",
+        "Name": "PrintDate",
+        "Alias": "print Date (execution date)",
+        "Type": "System.String",
+        "Category": "report"
+      },
+      "3": {
+        "Name": "BillingFooterMessage",
+        "Alias": "footer message (specify in option)",
+        "Type": "System.String",
+        "Category": "report"
+      },
+      "4": {
+        "Value": "ریال",
+        "Name": "CurrencyName",
+        "Alias": "CurrencyName",
+        "Type": "System.String",
+        "Category": "report",
+        "Description": "application currency name that set by admin"
+      }
+    },
+    "DataSources": {
+      "0": {
+        "Ident": "StiDataTableSource",
+        "Name": "units",
+        "Alias": "units",
+        "Columns": {
+          "0": {
+            "Name": "UnitId",
+            "Index": -1,
+            "NameInSource": "UnitId",
+            "Alias": "UnitId",
+            "Type": "System.Decimal"
+          },
+          "1": {
+            "Name": "UnitNumber",
+            "Index": -1,
+            "NameInSource": "UnitNumber",
+            "Alias": "UnitNumber",
+            "Type": "System.String"
+          },
+          "2": {
+            "Name": "UnitDescription",
+            "Index": -1,
+            "NameInSource": "UnitDescription",
+            "Alias": "UnitDescription",
+            "Type": "System.String"
+          },
+          "3": {
+            "Name": "PersonFullName",
+            "Index": -1,
+            "NameInSource": "PersonFullName",
+            "Alias": "PersonFullName",
+            "Type": "System.String"
+          },
+          "4": {
+            "Name": "PersonMobile",
+            "Index": -1,
+            "NameInSource": "PersonMobile",
+            "Alias": "PersonMobile",
+            "Type": "System.String"
+          },
+          "5": {
+            "Name": "OwnerTypeDesc",
+            "Index": -1,
+            "NameInSource": "OwnerTypeDesc",
+            "Alias": "OwnerTypeDesc",
+            "Type": "System.String"
+          }
+        },
+        "NameInSource": "Units.units"
+      }
+    }
+  },
+  "Pages": {
+    "0": {
+      "Ident": "StiPage",
+      "Name": "Page1",
+      "Guid": "b469c357be174a65a68f52e84fe23db2",
+      "Interaction": {
+        "Ident": "StiInteraction"
+      },
+      "Border": ";;2;;;;;solid:Black",
+      "Brush": "solid:Transparent",
+      "Components": {
+        "0": {
+          "Ident": "StiPageHeaderBand",
+          "Name": "PageHeaderBand1",
+          "ClientRectangle": "0,0.4,20,1.1",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": "All;;;;;;;solid:0,0,0",
+          "Brush": "solid:Transparent",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "ReportTitleText",
+              "Guid": "f1cf1c3c78effdbb4ba1a5b682fa344c",
+              "ClientRectangle": "7.4,0.13,5.2,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Editable": true,
+              "Text": {
+                "Value": "مشخصات مالکین و ساکنین"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "IRANSansFaNum;10;Bold;",
+              "Border": ";110,110,110;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:10,10,10",
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text2",
+              "Guid": "1fc23a21339eade255cbef66eeeb34c6",
+              "ClientRectangle": "0,0.13,5.2,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "صفحه {PageNumber} از {TotalPageCount}"
+              },
+              "VertAlignment": "Bottom",
+              "Font": "IRANSansFaNum;10;;",
+              "Border": ";110,110,110;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:10,10,10",
+              "Type": "Expression"
+            },
+            "2": {
+              "Ident": "StiText",
+              "Name": "Text5",
+              "Guid": "e4fefc64dac5a2d7685e4ce2f2a971b0",
+              "CanGrow": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "5.4,0.55,9.2,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{DomainsDescription}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "IRANSansFaNum;10;;",
+              "Border": ";110,110,110;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:10,10,10",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Type": "Expression"
+            },
+            "3": {
+              "Ident": "StiText",
+              "Name": "Text1",
+              "Guid": "bed94e5eaeb10fd065350a5419454e8f",
+              "ClientRectangle": "14.8,0.13,5.2,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "چاپ:{PrintDate}"
+              },
+              "HorAlignment": "Right",
+              "VertAlignment": "Bottom",
+              "Font": "IRANSansFaNum;10;;",
+              "Border": ";110,110,110;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:10,10,10",
+              "Type": "Expression"
+            }
+          }
+        },
+        "1": {
+          "Ident": "StiGroupHeaderBand",
+          "Name": "GroupHeaderBand1",
+          "ClientRectangle": "0,2.3,20,0",
+          "Interaction": {
+            "Ident": "StiBandInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent",
+          "Condition": {
+            "Value": "1"
+          }
+        },
+        "2": {
+          "Ident": "StiChildBand",
+          "Name": "ChildBand1",
+          "ClientRectangle": "0,3.1,20,0.6",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "HeaderTextUnitBillingPerUnit2",
+              "Guid": "61e17219b67b339598056e5bcbe2107f",
+              "CanGrow": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "0,0,3.2,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "موبایل"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "IRANSansFaNum;10;Bold;",
+              "Border": "All;110,110,110;;;;;true;solid:0,0,0",
+              "Brush": "solid:210,210,210",
+              "TextBrush": "solid:10,10,10",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "HeaderTextUnitBillingPerUnit3",
+              "Guid": "bbb4f8558f62545a916a7734b2384d4b",
+              "CanGrow": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "3.2,0,3.2,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "نوع مالکیت"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "IRANSansFaNum;10;Bold;",
+              "Border": "All;110,110,110;;;;;true;solid:0,0,0",
+              "Brush": "solid:210,210,210",
+              "TextBrush": "solid:10,10,10",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Type": "Expression"
+            },
+            "2": {
+              "Ident": "StiText",
+              "Name": "HeaderTextUnitBillingPerUnit4",
+              "Guid": "f2ebf4c4b6289743525c6ecc4d1e1599",
+              "CanGrow": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "6.4,0,6.4,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "نام و نام خانوادگی"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "IRANSansFaNum;10;Bold;",
+              "Border": "All;110,110,110;;;;;true;solid:0,0,0",
+              "Brush": "solid:210,210,210",
+              "TextBrush": "solid:10,10,10",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Type": "Expression"
+            },
+            "3": {
+              "Ident": "StiText",
+              "Name": "HeaderTextUnitBillingPerUnit5",
+              "Guid": "fcc9b6c57fd6a608559c8aab082bf98b",
+              "CanGrow": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "16.4,0,2.2,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "شماره واحد"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "IRANSansFaNum;10;Bold;",
+              "Border": "All;110,110,110;;;;;true;solid:0,0,0",
+              "Brush": "solid:210,210,210",
+              "TextBrush": "solid:10,10,10",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Type": "Expression"
+            },
+            "4": {
+              "Ident": "StiText",
+              "Name": "HeaderTextUnitBillingPerUnit6",
+              "Guid": "ca3bd4d3f36bfa3cd96ae68033efe30c",
+              "CanGrow": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "18.6,0,1.4,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "ردیف"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "IRANSansFaNum;10;Bold;",
+              "Border": "All;110,110,110;;;;;true;solid:0,0,0",
+              "Brush": "solid:210,210,210",
+              "TextBrush": "solid:10,10,10",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Type": "Expression"
+            },
+            "5": {
+              "Ident": "StiText",
+              "Name": "HeaderTextUnitBillingPerUnit1",
+              "Guid": "3553de98b9ec4db62eda7106dc61648c",
+              "CanGrow": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "12.8,0,3.6,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "شرح واحد"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "IRANSansFaNum;10;Bold;",
+              "Border": "All;110,110,110;;;;;true;solid:0,0,0",
+              "Brush": "solid:210,210,210",
+              "TextBrush": "solid:10,10,10",
+              "TextOptions": {
+                "RightToLeft": true,
+                "WordWrap": true
+              },
+              "Type": "Expression"
+            }
+          }
+        },
+        "3": {
+          "Ident": "StiDataBand",
+          "Name": "DataUnitBillingPerUnit",
+          "ClientRectangle": "0,4.5,20,0.6",
+          "Interaction": {
+            "Ident": "StiBandInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "DataTextUnitBillingPerUnit2",
+              "Guid": "171d50f97629115a4d21300ebf0ea5d7",
+              "CanGrow": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "0,0,3.2,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{units.PersonMobile}"
+              },
+              "VertAlignment": "Center",
+              "Font": "IRANSansFaNum;10;;",
+              "Border": "All;110,110,110;;;;;true;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:10,10,10",
+              "TextOptions": {
+                "RightToLeft": true,
+                "WordWrap": true
+              },
+              "TextQuality": "Wysiwyg",
+              "Margins": {
+                "Left": 4,
+                "Right": 4,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "DataTextUnitBillingPerUnit3",
+              "Guid": "27a69d4ae0d28d7e5026c6fa6c1d1231",
+              "CanGrow": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "3.2,0,3.2,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{units.OwnerTypeDesc}"
+              },
+              "VertAlignment": "Center",
+              "Font": "IRANSansFaNum;10;;",
+              "Border": "All;110,110,110;;;;;true;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:10,10,10",
+              "TextOptions": {
+                "RightToLeft": true,
+                "WordWrap": true
+              },
+              "TextQuality": "Wysiwyg",
+              "Margins": {
+                "Left": 4,
+                "Right": 4,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "TextFormat": {
+                "Ident": "StiNumberFormatService",
+                "NegativePattern": 0,
+                "DecimalDigits": 0,
+                "GroupSeparator": ",",
+                "State": "DecimalDigits, GroupSeparator, NegativePattern"
+              },
+              "Type": "Expression"
+            },
+            "2": {
+              "Ident": "StiText",
+              "Name": "DataTextUnitBillingPerUnit4",
+              "Guid": "920f900505e2a9b3939181f3ac24471a",
+              "CanGrow": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "6.4,0,6.4,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{units.PersonFullName}"
+              },
+              "VertAlignment": "Center",
+              "Font": "IRANSansFaNum;10;;",
+              "Border": "All;110,110,110;;;;;true;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:10,10,10",
+              "TextOptions": {
+                "RightToLeft": true,
+                "WordWrap": true
+              },
+              "TextQuality": "Wysiwyg",
+              "Margins": {
+                "Left": 4,
+                "Right": 4,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "3": {
+              "Ident": "StiText",
+              "Name": "DataTextUnitBillingPerUnit6",
+              "Guid": "31ef9b28f0e61c9897515567801ce745",
+              "CanGrow": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "18.6,0,1.4,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{Line}"
+              },
+              "VertAlignment": "Center",
+              "Font": "IRANSansFaNum;10;;",
+              "Border": "All;110,110,110;;;;;true;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:10,10,10",
+              "TextOptions": {
+                "RightToLeft": true,
+                "WordWrap": true
+              },
+              "TextQuality": "Wysiwyg",
+              "Margins": {
+                "Left": 4,
+                "Right": 4,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "4": {
+              "Ident": "StiText",
+              "Name": "DataTextUnitBillingPerUnit5",
+              "Guid": "073506850e4ee787b6e68c893a13517c",
+              "CanGrow": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "16.4,0,2.2,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{units.UnitNumber}"
+              },
+              "VertAlignment": "Center",
+              "Font": "IRANSansFaNum;10;;",
+              "Border": "All;110,110,110;;;;;true;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:10,10,10",
+              "TextOptions": {
+                "RightToLeft": true,
+                "WordWrap": true
+              },
+              "TextQuality": "Wysiwyg",
+              "Margins": {
+                "Left": 4,
+                "Right": 4,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "5": {
+              "Ident": "StiText",
+              "Name": "DataTextUnitBillingPerUnit1",
+              "Guid": "c8007f6c98ffadff48f74f5459e45e2e",
+              "CanGrow": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "12.8,0,3.6,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{units.UnitDescription}"
+              },
+              "VertAlignment": "Center",
+              "Font": "IRANSansFaNum;10;;",
+              "Border": "All;110,110,110;;;;;true;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:10,10,10",
+              "TextOptions": {
+                "RightToLeft": true,
+                "WordWrap": true
+              },
+              "TextQuality": "Wysiwyg",
+              "Margins": {
+                "Left": 4,
+                "Right": 4,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "TextFormat": {
+                "Ident": "StiNumberFormatService",
+                "NegativePattern": 0,
+                "DecimalDigits": 0,
+                "GroupSeparator": ",",
+                "State": "DecimalDigits, GroupSeparator, NegativePattern"
+              },
+              "Type": "Expression"
+            }
+          },
+          "DataSourceName": "units",
+          "FilterMode": "Or",
+          "EvenStyle": "Gray 25%_Data1_Even Style",
+          "OddStyle": "Gray 25%_Data1_Odd Style"
+        },
+        "4": {
+          "Ident": "StiGroupFooterBand",
+          "Name": "GroupFooterBand1",
+          "ClientRectangle": "0,5.9,20,0",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent"
+        }
+      },
+      "PageWidth": 21,
+      "PageHeight": 29.7,
+      "Watermark": {
+        "TextBrush": "solid:50,0,0,0"
+      },
+      "Margins": {
+        "Left": 0.5,
+        "Right": 0.5,
+        "Top": 0.5,
+        "Bottom": 0.5
+      }
+    }
+  }
+}
